@@ -1,58 +1,91 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link type="text/css" rel="stylesheet" href="style.css"/>
-		<title>Movie Promotion Website</title>
+<link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta name = "viewport" content= "width = device-width">
+		<meta name = "author" content = "Ross Jiang">
+		<meta name ="keywords" content=" movie promotion website for commlab 2018 spring">
+		<link type="text/css" rel="stylesheet" href="style.css">
+		<title>A Series of Unfortunate Events at NYUAD | WELCOME</title>
 	</head>
 
 	<body>
-		<div id="header">
-			<p id="name" >TITLE</p>
-		</div>
-
-		<div id="signupbox">
-			<a href="https://www.facebook.com/zhengyang.jiang.3"> <span>Join Us!</span></a>
-			<div id="iconbox">
-				<a href="https://www.facebook.com"><img src="facebook.jpg" class="icons"/></a>
-				<a href="https://www.pinterest.com"><img src="pinterest.jpg" class="icons"/></a>
-				<a href="https://www.instagram.com"><img src="insta.jpg" class="icons"/></a>
-				<a href="https://www.twitter.com"><img src="twitter.jpg" class="icons"/></a>
-				<a href="https://www.youtube.com"><img src="youtube.jpg" class="icons"/></a>
+		<header>
+			<div class ="container">
+				<div id = "branding">
+					<h1> <span class = "highlight">Studio 1011</span>'s ASUE</h1>
+				</div>
 			</div>
+			<nav>
+				<ul>
+					<li> <button id = "modalBtn" class = button> About the Movie</button>
+								<div id = "simpleModal" class ="modal">
+									<div class = "modal-content">
+										<div class="modal-header">
+											<span2 class = "closeBtn"> &times;</span2>
+											<h2> What is this Movie?  </h2>
+										</div>
+										<div class="modal-body">
+										<p>This movie was created by three NYUAD students in IM-UH 1011 Communicaitons Lab for the 30 min Film Festival in 2018 spring</p>
+										<p>In a place far far away, there is a magical school called NYUAD on a magical island with crazy people </p>
+										<p>The Movie describes the tragic yet perculiar events of the daily life of one NYUAD student who is trying to go to his class on time</p>
+										<p>Will he survive? Watch the movie to find out!
+									</div>
+									</div>
+								</div>
+					</li>
+
+
+					<li><a href = "https://youtu.be/zMN94Vo1TLM">Order Your Copy!</a></li>
+					<li><a href = "https://youtu.be/zMN94Vo1TLM">Trailer</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id = "showcase">
+			<div class="container">
+					<div id = "main">
+						<img id = "bigpic" src ="main.png">
+					<div id = "desc">
+						<p><font color = "afa36e">A NYUAD student's tragic yet magical journey..</font></p>
+					</div>
+					</div>
+				</div>
+		</section>
+
+		<section id="newsletter">
+			<div class = "container">
+				<h1 id = "desc"> Subscribe to our Event Updates </h1>
+				<form>
+					<input type="email" placeholder="Enter Email..">
+					<button type = "submit" class = "button1"> subscribe </button>
+				</form>
+			</div>
+		</section>
+
+		<section id = "boxes">
+			<div class = "container">
+				<div class ="box">
+					<img id = "img1" src="behind.jpg">
+					<h3><a href="construction.html">Behind the Scene</a></h3>
+			</div>
+			<div class ="box">
+				<img src="interview.jpg">
+				<h3><a href="construction.html">Exclusive Interviews with the cast</a></h3>
 		</div>
-
-		<div id ="displaybox">
-			<p id="name">News, Awards etc.</p>
+			<div class ="box">
+				<img src="deleted.jpg">
+				<h3><a href="construction.html">Deleted Scenes</a></h3>
 		</div>
+			</div>
+		</section>
 
-		<table>
-			<tr>
-		    <td>OWN IT NOW</td>
-			</tr>
-			<tr>
-		    <td>TRAILER</td>
-			</tr>
-			<tr>
-		    <td>BUY MERCH</td>
-			</tr>
-			<tr>
-		    <td>FAN BLOG</td>
-			</tr>
-			<tr>
-				<td>MORE INFO</td>
-			</tr>
+		<footer>
+			<p> Studio 1011, Copy &copy; 2018</p>
+		</footer>
 
-		</table>
-
-		<div id="photogallery">
-			<p>Movie Gallery</p>
-			<img src="cat.jpg" class ="pic">
-			<img src="cat.jpg" class = "pic">
-			<img src="cat.jpg" class = "pic">
-			<img src="cat.jpg" class = "pic">
-		</div>
-
-
-
+		<script type="text/javascript" src="script.js"></script>
 	</body>
+	<!-- <script src="script.js"></script> -->
 </html>
