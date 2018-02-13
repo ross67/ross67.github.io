@@ -22,4 +22,6 @@ function clickOutside(e){
   if(e.target == modal){
   modal.style.display = "none";
 }
+
+//reference to the tutorial about the modal https://www.youtube.com/watch?v=6ophW7Ask_0&t=1523s
 }
