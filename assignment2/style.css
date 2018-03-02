@@ -1,6 +1,69 @@
+html,
 body{
+  position: absolute;
   margin: 0;
-  padding: 0; 
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  height:100%;
+  width:100%;
+}
 
-  background-color: pink;
+.container {
+  height: 10%;
+  width:100%;
+  text-align:center;
+  vertical-align:middle;
+  border: 1px solid black;
+  position:absolute;
+  border-bottom: 0px;
+}
+
+#map {
+  position:absolute;
+  top:10%;
+  height: 90%;
+  width:100%;
+  border: 1px solid black;
+  font-family: 'Open Sans';
+  overflow: scroll;
+}
+
+.box{
+  display: inline;
+  position: absolute;
+}
+
+#img1{
+  margin-left: 0;
+  margin-top: 0;
+  height: 50%;
+  width: 50%;
+}
+
+#img2{
+  margin-right: 0;
+  margin-top: 0;
+  left:50%;
+  height: 50%;
+  width: 50%;
+}
+
+#img3{
+  margin-left: 0;
+  margin-bottom: 0;
+  top:50%;
+  height: 50%;
+  width: 50%;
+}
+
+#img4{
+  margin-left: 0;
+  margin-bottom: 0;
+  top:50%;
+  left:50%;
+  height: 50%;
+  width: 50%;
+
 }
