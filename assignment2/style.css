@@ -32,20 +32,19 @@ body{
 
 .box{
   display: inline;
-  position: absolute;
+  position: relative;
 }
 
 #img1{
   margin-left: 0;
   margin-top: 0;
   height: 50%;
-  width: 50%;
+  width: 49%;
 }
 
 #img2{
   margin-right: 0;
   margin-top: 0;
-  left:50%;
   height: 50%;
   width: 50%;
 }
@@ -53,16 +52,13 @@ body{
 #img3{
   margin-left: 0;
   margin-bottom: 0;
-  top:50%;
   height: 50%;
-  width: 50%;
+  width: 49%;
 }
 
 #img4{
   margin-left: 0;
   margin-bottom: 0;
-  top:50%;
-  left:50%;
   height: 50%;
   width: 50%;
 
