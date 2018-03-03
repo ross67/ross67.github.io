@@ -1,6 +1,6 @@
 html,
 body{
-  position: absolute;
+  position:absolute;
   margin: 0;
   top: 0px;
   left: 0px;
@@ -66,4 +66,21 @@ body{
   height: 50%;
   width: 50%;
 
+}
+#popup{
+  position:fixed;
+  z-index:100;
+  align-content:center;
+  background-color:black;
+  margin:auto;
+}
+p{
+  
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  text-align:center;
 }
