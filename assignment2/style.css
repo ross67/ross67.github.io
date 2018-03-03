@@ -69,7 +69,13 @@ body{
 }
 #popup{
   position:fixed;
-  z-index:100;
+  margin: 0;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  height:100%;
+  width:100%;
   align-content:center;
   background-color:black;
   margin:auto;
@@ -83,4 +89,23 @@ p{
   transform: translate(-50%, -50%);
   color:white;
   text-align:center;
+}
+
+#gif{
+  position: absolute;
+  top: 48%;
+  left: 47%;
+  z-index:60;
+}
+#main{
+  background-image:url('map.jpg');
+  position:absolute;
+  margin: 0;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  height:100%;
+  width:100%;
+  color:black;
 }
