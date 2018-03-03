@@ -39,6 +39,7 @@ body{
   left:1%;
   height: 48.5%;
   width: 48.5%;
+  cursor: pointer;
 
 }
 
@@ -48,6 +49,7 @@ body{
   right:2%;
   height: 48.5%;
   width: 48.5%;
+  cursor: pointer;
 }
 
 #img3{
@@ -56,6 +58,7 @@ body{
   bottom:1%;
   height: 48.5%;
   width: 48.5%;
+  cursor: pointer;
 }
 
 #img4{
@@ -66,6 +69,7 @@ body{
   right:1%;
   height: 48.5%;
   width: 48.5%;
+  cursor: pointer;
 
 }
 .things{
@@ -92,7 +96,7 @@ body{
   margin:auto;
 }
 p{
-  
+
   margin: 0;
   position: absolute;
   top: 30%;

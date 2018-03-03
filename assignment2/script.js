@@ -5,13 +5,13 @@ let block1=document.getElementById('img1')
 let block2=document.getElementById('img2')
 let block3=document.getElementById('img3')
 let block4=document.getElementById('img4')
-console.log(popup)
+// console.log(popup)
 popup.addEventListener("click",closePopup)
-block1.addEventListener("click",clickingPic(block1))
-block2.addEventListener("click",clickingPic(block2))
-block3.addEventListener("click",clickingPic(block3))
-block4.addEventListener("click",clickingPic(block4))
-popup.style.opacity=1	
+// block1.addEventListener("click",clickingPic(block1))
+// block2.addEventListener("click",clickingPic(block2))
+// block3.addEventListener("click",clickingPic(block3))
+// block4.addEventListener("click",clickingPic(block4))
+popup.style.opacity=1
 main.style.opacity=0
 function closePopup(){
 	if (popup.style.opacity==1){
@@ -19,11 +19,12 @@ function closePopup(){
 			setTimeout(function(){console.log('ok')
 			popup.style.opacity=popup.style.opacity-0.1
 			main.style.opacity=popup.style.opacity+1
-			console.log(popup.style.opacity)},100*i)}
+			// console.log(popup.style.opacity)
+		},100*i)}
 		setTimeout(function(){popup.style.display='none'},1000)
 	}
 }
-function clickingPic(block){
-	console.log(block)
+function change(block){
+	console.log(1)
 	block.style.opacity=0.5
 }
