@@ -37,7 +37,7 @@
         </div>
     </section>
   </div>
-  <div id="popup">
+  <div id="popup" class='screen' onclick=fadeOut(popup,main)>
     <p>
       What you are about to experience <br>
       is a Day in a Dog's Life<br>
@@ -52,6 +52,28 @@
     </p>
     <img src='doge.gif' id='gif'>
   </div>
+  <div id='ending1' class='ending' onclick=fadeOut(ending1,main)>
+    <p>
+      this is the text <br>
+      of ending 1<br>
+      click wherever to start again
+    </p>
+  </div>
+    <div id='ending2' class='ending' onclick=fadeOut(ending2,main)>
+    <p>
+      this is the text <br>
+      of ending 2 <br>
+      click wherever to start again
+    </p>
+  </div>
+    <div id='ending3' class='ending' onclick=fadeOut(ending3,main)>
+    <p>
+      this is the text <br>
+      of ending 3<br>
+      click wherever to start again
+    </p>
+  </div>
 </body>
+<script type="text/javascript" src="howler.js"></script>
 <script src="script.js"></script>
 </html>
