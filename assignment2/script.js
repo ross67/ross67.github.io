@@ -5,6 +5,8 @@ let block1=document.getElementById('img1')
 let block2=document.getElementById('img2')
 let block3=document.getElementById('img3')
 let block4=document.getElementById('img4')
+let blocks=[block1,block2,block3,block4]
+let clicks=[0,0,0,0]
 // console.log(popup)
 popup.addEventListener("click",closePopup)
 // block1.addEventListener("click",clickingPic(block1))
@@ -25,6 +27,11 @@ function closePopup(){
 	}
 }
 function change(block){
-	console.log(1)
-	block.style.opacity=0.5
+	if (clicks[blocks.indexOf(block)]<2){
+		clicks[blocks.indexOf(block)]+=1
+		console.log(clicks[blocks.indexOf(block)])
+		if (clicks[blocks.indexOf(block)]==2){
+			block.style.opacity=0.5
+		}
+	}
 }

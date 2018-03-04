@@ -78,6 +78,9 @@ body{
   height:100%;
   width:100%;
 }
+.things:hover{
+  filter:grayscale(0%);
+}
 .box:hover{
   filter:grayscale(0%);
   border: 5px solid green;
