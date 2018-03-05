@@ -15,7 +15,6 @@ body{
   width:100%;
   text-align:center;
   vertical-align:middle;
-  border: 1px solid black;
   position:absolute;
   border-bottom: 0px;
 }
@@ -25,9 +24,8 @@ body{
   top:10%;
   height: 90%;
   width:100%;
-  border: 1px solid black;
   font-family: 'Open Sans';
-  overflow: scroll;
+
 }
 
 .box{
@@ -82,7 +80,7 @@ body{
   filter:grayscale(0%);
 }
 .box:hover{
-  border: 5px solid green;
+  border: 5px solid   #947a63;
 }
 #popup{
   position:fixed;
@@ -147,4 +145,12 @@ h3{
   right:5%;
   bottom:5%;
   color:white;
+  font:bold x-large Bahnschrift ;
+
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+h1{
+  font:bold xx-large Bahnschrift ;
+  color:white;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
