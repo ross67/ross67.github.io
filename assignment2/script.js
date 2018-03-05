@@ -32,12 +32,11 @@ let sound41=soundSample
 let sound42=soundSample
 let sounds1=[sound11,sound21,sound31,sound41]
 let sounds2=[sound12,sound22,sound32,sound42]
-let ambiance=soundSample
 let endSound1=soundSample
 let endSound2=soundSample
 let endSound3=soundSample
 let endSounds=[endSound1,endSound2,endSound3]
-let allSounds=sounds1.concat(sounds2.concat(endSounds.concat([ambiance])))
+let allSounds=sounds1.concat(sounds2.concat(endSounds))
 
 // console.log(popup)
 //popup.addEventListener("click",fadeOut(main,popup))
