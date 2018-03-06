@@ -34,20 +34,51 @@ let dogDeath=new Howl({
 	src:['dogDeath.ogg'],
 	onend:function(){checkingEnding()},
 })
-
-let introSound=soundSample
-let sound11=soundSample
-let sound12=soundSample
-let sound21=soundSample
-let sound22=soundSample
-let sound31=soundSample
-let sound32=soundSample
+let cafeScene1=new Howl({
+	src:['Cafe1COMPLETE.ogg'],
+	onend:function(){checkingEnding()},
+})
+let cafeScene2=new Howl({
+	src:['Cafe2COMPLETE.ogg'],
+	onend:function(){checkingEnding()},
+})
+let parkScene1=new Howl({
+	src:['DogInPark1COMPLETE.ogg'],
+	onend:function(){checkingEnding()},
+})
+let parkScene2=new Howl({
+	src:['DogInPark2COMPLETE.ogg'],
+	onend:function(){checkingEnding()},
+})
+let fishMarketScene1=new Howl({
+	src:['FishMarketCOMPLETE1.ogg'],
+	onend:function(){checkingEnding()},
+})
+let fishMarketScene2=new Howl({
+	src:['FishMarket2COMPLETE.ogg'],
+	onend:function(){checkingEnding()},
+})
+let opening=new Howl({
+	src:['DialogueOpening.wav'],
+	onend:function(){checkingEnding()},
+})
+let endingScene2=new Howl({
+	src:['ENDING2.ogg'],
+	onend:function(){checkingEnding()},
+})
+let introSound=opening
+let sound11=fishMarketScene1
+let sound12=fishMarketScene2
+let sound21=parkScene1
+let sound22=parkScene2
+let sound31=cafeScene1
+let sound32=cafeScene2
 let sound41=beachScene1
 let sound42=beachScene2
 let sounds1=[sound11,sound21,sound31,sound41]
 let sounds2=[sound12,sound22,sound32,sound42]
 let endSound1=soundSample
-let endSound2=soundSample
+let endSound2=endingScene2
 let endSound3=dogDeath
 let endSounds=[endSound1,endSound2,endSound3]
 let allSounds=sounds1.concat(sounds2.concat(endSounds))

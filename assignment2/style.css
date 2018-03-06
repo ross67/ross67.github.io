@@ -110,7 +110,7 @@ body{
   visibility:hidden;
   opacity:0;
 }
-p{
+h4{
 
   margin: 0;
   position: absolute;
@@ -154,3 +154,8 @@ h1{
   color:white;
   text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
+/* h2{
+  z-index: 1;
+  position:absolute;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+} */
