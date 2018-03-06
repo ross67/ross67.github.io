@@ -21,6 +21,20 @@ let soundSample=new Howl({
 	onend:function(){checkingEnding()},
 })
 
+let beachScene1=new Howl({
+	src:['beachScene1.ogg'],
+	onend:function(){checkingEnding()},
+})
+let beachScene2=new Howl({
+	src:['beachScene2.ogg'],
+	onend:function(){checkingEnding()},
+})
+
+let dogDeath=new Howl({
+	src:['dogDeath.ogg'],
+	onend:function(){checkingEnding()},
+})
+
 let introSound=soundSample
 let sound11=soundSample
 let sound12=soundSample
@@ -28,13 +42,13 @@ let sound21=soundSample
 let sound22=soundSample
 let sound31=soundSample
 let sound32=soundSample
-let sound41=soundSample
-let sound42=soundSample
+let sound41=beachScene1
+let sound42=beachScene2
 let sounds1=[sound11,sound21,sound31,sound41]
 let sounds2=[sound12,sound22,sound32,sound42]
 let endSound1=soundSample
 let endSound2=soundSample
-let endSound3=soundSample
+let endSound3=dogDeath
 let endSounds=[endSound1,endSound2,endSound3]
 let allSounds=sounds1.concat(sounds2.concat(endSounds))
 
