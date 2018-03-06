@@ -32,7 +32,7 @@ let beachScene2=new Howl({
 
 let dogDeath=new Howl({
 	src:['dogDeath.ogg'],
-	onend:function(){checkingEnding()},
+	onend:function(){if(timesPlayed==4){location.reload()}},
 })
 let cafeScene1=new Howl({
 	src:['Cafe1COMPLETE.ogg'],
@@ -64,12 +64,12 @@ let opening=new Howl({
 })
 let endingScene2=new Howl({
 	src:['ENDING2.ogg'],
-	onend:function(){checkingEnding()},
+	onend:function(){if(timesPlayed==4){location.reload()}},
 })
 
 let EndingScene1=new Howl({
 	src:['EndingScene1.ogg'],
-	onend:function(){checkingEnding()},
+	onend:function(){if(timesPlayed==4){location.reload()}},
 })
 let introSound=opening
 let sound11=fishMarketScene1
@@ -151,7 +151,7 @@ function checkingEnding(){
 			console.log(endings[2])
 			endSounds[2].play()
 		}
-		for (i in [0,1]){endings.unshift(endings.pop())}
+		for (i in [0,1]){endings.unshift(endings.pop());endSounds.unshift(endSounds.pop())}
 		timesPlayed+=1
 	}
 }
