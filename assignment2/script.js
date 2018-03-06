@@ -66,6 +66,11 @@ let endingScene2=new Howl({
 	src:['ENDING2.ogg'],
 	onend:function(){checkingEnding()},
 })
+
+let EndingScene1=new Howl({
+	src:['EndingScene1.ogg'],
+	onend:function(){checkingEnding()},
+})
 let introSound=opening
 let sound11=fishMarketScene1
 let sound12=fishMarketScene2
@@ -79,7 +84,7 @@ let sounds1=[sound11,sound21,sound31,sound41]
 let sounds2=[sound12,sound22,sound32,sound42]
 let endSound1=soundSample
 let endSound2=endingScene2
-let endSound3=dogDeath
+let endSound3=EndingScene1
 let endSounds=[endSound1,endSound2,endSound3]
 let allSounds=sounds1.concat(sounds2.concat(endSounds))
 
