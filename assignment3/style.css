@@ -1,0 +1,16 @@
+header{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
+
+  img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5%;
+      width: 60%;
+  }
