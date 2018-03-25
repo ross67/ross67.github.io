@@ -13,3 +13,11 @@ let img=document.getElementById('img')
         }
 
     }
+
+
+    function hover(element) {
+        element.setAttribute('src', 'arrowHover.png');
+    }
+    function unhover(element) {
+        element.setAttribute('src', 'arrow.png');
+    }
