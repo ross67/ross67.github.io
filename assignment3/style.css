@@ -14,3 +14,7 @@ header{
       margin-top: 5%;
       width: 60%;
   }
+
+#img1{
+  display: none;
+}
