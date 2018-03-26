@@ -5,11 +5,13 @@ let img=document.getElementById('img')
 
     function changeImg()
     {
-        if (img.getAttribute('src') == "dumb.jpg")
+        if (img.getAttribute('src') == "panel1.jpg")
         {
-            img.src = "samuel.jpg";
-        }else if(img.getAttribute('src') == "samuel.jpg"){
-          img.src ="doge.jpg";
+            img.src = "panel2.jpg";
+        }else if(img.getAttribute('src') == "panel2.jpg"){
+          img.src ="panel4.jpg";
+        }else if(img.getAttribute('src') == "panel4.jpg"){
+          img.src ="panel6.jpg";
         }
 
     }
