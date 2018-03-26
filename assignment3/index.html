@@ -6,16 +6,18 @@
     <meta name = "author" content = "Ross Jiang">
     <meta name ="keywords" content="An interactive webite with our comics">
     <link type="text/css" rel="stylesheet" href="style.css">
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Horror Movie</title>
   </head>
   <body>
     <header>
-      <h2>Horror Movie</h2>
+      <h2>Home Sweet Home</h2>
     </header>
     <main>
       <img src="panel1.jpg" alt="inshallah comics here" id ="img" >
-      <img src = "arrow.png " id = "arrow" onmouseover="hover(this);" onmouseout="unhover(this);" onclick = "changeImg()"/>
+      <img src = "arrow.png " class ="arrow" id = "forwardArrow" onmouseover="hover(this);" onmouseout="unhover(this);" onclick = "changeImgForward()"/>
+      <img src = "arrow.png " class ="arrow" id = "backArrow" onmouseover="hover(this);" onmouseout="unhover(this);" onclick = "changeImgBackward()"/>
     </main>
 
 
