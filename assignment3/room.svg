@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name = "viewport" content= "width = device-width">
-    <meta name = "author" content = "Ross Jiang">
-    <meta name ="keywords" content="An interactive webite with our comics">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link type="text/css" rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <title>Horror Movie</title>
-  </head>
-  <body>
-    <header>
-      <h2>Home Sweet Home</h2>
-    </header>
-    <main>
-      <div class="container-fluid">
-      <img class="img-fluid" src="panel1.jpg" alt="inshallah comics here" id ="img" >
-      <svg class ="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 501.2 525.29">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 501.2 525.29">
   <defs>
     <style>
       .cls-1, .cls-3, .cls-6, .cls-9 {
@@ -1139,12 +1119,3 @@
     </g>
   </g>
 </svg>
-
-      <img src = "arrow.png " class ="arrow img-fluid" id = "forwardArrow" onmouseover="hover(this);" onmouseout="unhover(this);" onclick = "changeImgForward()"/>
-      <img src = "arrow.png " class ="arrow hide img-fluid" id = "backArrow" onmouseover="hover(this);" onmouseout="unhover(this);" onclick = "changeImgBackward()"/>
-    </div>
-    </main>
-    <script type="text/javascript" src="script.js"></script>
-    <script type="text/javascript" src="howler.js"></script>
-  </body>
-</html>
