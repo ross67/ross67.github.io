@@ -1,0 +1,35 @@
+.container{
+
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+
+      left: 15%;
+
+}
+
+.item{
+
+color:white;
+margin: 3vw;
+font-size: 40px;
+font-family: 'arial';
+cursor: pointer;
+text-align: center;
+background-color: transparent;
+border: 2px solid black;
+border-radius: 10px;
+color: black;
+padding: 15px 32px;
+text-decoration:'bold';
+font-weight: bold;
+display: inline-block;
+transition: all .2s ease-in-out;
+}
+
+
+  .item:hover{
+     transform: scale(1.1);
+     background-color: black;
+     color:white;
+   }
