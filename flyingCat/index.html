@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta name = "viewport" content= "width = device-width">
+		<meta name = "author" content = "Ross Jiang">
+		<link type="text/css" rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<title>Do something</title>
+	</head>
+
+	<body>
+
+
+      <img src ="catFall.png" id = "img1" onclick=clicked()>
+
+
+			<img src ="plane.png" id = "plane" onclick=playVideo()>
+
+			<p id = "text2"> Pick up the cat and drop it on the plane</p>
+
+
+    <div id = "videoContainer">
+
+      <iframe src="https://www.youtube.com/embed/7eabz4V-tvU?" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+    </div>
+
+		<div id="popup" onclick=fadeOut()>
+			<p>Welcome to the World of Flying Cats</p>
+			<img src='nyan.gif' id='gif' onload=myMove()>
+			<p> Click to continue</p>
+		</div>
+
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
