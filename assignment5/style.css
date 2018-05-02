@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'FunSized';
+  src: url('FunSized.eot'); /* IE9 Compat Modes */
+  src: url('FunSized.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('FunSized.woff2') format('woff2'), /* Super Modern Browsers */
+       url('FunSized.woff') format('woff'), /* Pretty Modern Browsers */
+       url('FunSized.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('FunSized.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+html,
+body{
+  position:absolute;
+  margin: 0;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  height:100%;
+  width:100%;
+  font-family: 'FunSized', sans-serif;
+}
+
+
+.container {
+  height: 10%;
+  width:100%;
+  text-align:center;
+  vertical-align:middle;
+  position:absolute;
+  border-bottom: 0px;
+}
+
+
+
+h1{
+    font-size: 6vw;
+}
+
+#panda{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+
+  /* top: 48%;
+  left: 47%; */
+  /* display: none; */
+  /* width:100%;
+  height:100%; */
+}
+
+#button{
+  /* padding: 50px;
+  background-color: green; */
+  transition: transform .2s; /* Animation */
+  width:40%;
+/* width: 200px;
+height: 200px; */
+/* margin: 0 auto; */
+
+}
+
+#button:hover {
+    transform: scale(1.2);
+}
+
+#arrow{
+
+  position: absolute;
+  top:23vw;
+  left:12vw;
+  width:30%;
+}
+
+video{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+  display:none;
+
+}
