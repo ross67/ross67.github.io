@@ -1,13 +1,3 @@
-@font-face {
-  font-family: 'FunSized';
-  src: url('FunSized.eot'); /* IE9 Compat Modes */
-  src: url('FunSized.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('FunSized.woff2') format('woff2'), /* Super Modern Browsers */
-       url('FunSized.woff') format('woff'), /* Pretty Modern Browsers */
-       url('FunSized.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('FunSized.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-
 html,
 body{
   position:absolute;
@@ -18,7 +8,8 @@ body{
   right: 0px;
   height:100%;
   width:100%;
-  font-family: 'FunSized', sans-serif;
+  background: #b88d4f;
+  font-family: 'Press Start 2P', cursive;
 }
 
 
@@ -37,28 +28,18 @@ h1{
     font-size: 6vw;
 }
 
-#panda{
+#gif{
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 640px;
+  height:352px;
   position: relative;
-
-  /* top: 48%;
-  left: 47%; */
-  /* display: none; */
-  /* width:100%;
-  height:100%; */
 }
 
 #button{
-  /* padding: 50px;
-  background-color: green; */
   transition: transform .2s; /* Animation */
-  width:40%;
-/* width: 200px;
-height: 200px; */
-/* margin: 0 auto; */
-
+  width:20%;
+  /* display:none; */
 }
 
 #button:hover {
@@ -67,17 +48,48 @@ height: 200px; */
 
 #arrow{
 
-  position: absolute;
-  top:23vw;
-  left:12vw;
-  width:30%;
+  position: relative;
+  top: -40vw;
+  left: -26vw;
+  width: 30%;
+  transform: rotate(-30deg);
 }
 
 video{
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: auto;
+  height:auto;
   position: relative;
   display:none;
 
 }
+
+.typewriter{
+  top: 45vw;
+  right: 4vw;
+  position: absolute;
+  font-size: 1.5vw;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 35% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+/* reference of the typewriter effect: https://css-tricks.com/snippets/css/typewriter-effect/ */
