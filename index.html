@@ -5,19 +5,43 @@
     <meta name = "viewport" content= "width = device-width">
     <meta name = "author" content = "Ross Jiang">
     <meta name ="keywords" content=" Ross Jiang's Personal Website">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="style.css">
     <title></title>
   </head>
-  <body>
-    <div class ="container">
-    <a class = "item" href="ross67.github.io/assignment1/index.html">Official Website of a cool Movie</a>
-    <a class = "item" href="ross67.github.io/assignment2/index.html">Sound Journal of a dog's day</a>
-    <a class = "item" href="ross67.github.io/assignment3/index.html">How to Survive a Horror Movie: an Interactive Cartoon</a>
-    <a class = "item" href="ross67.github.io/assignment4/index.html">Video Guide to Making an Action Movie</a>
-    <a class = "item" href="ross67.github.io/assignment5/index.html">Animated Adventure: Save Gravity </a>
-    <a class = "item" href="ross67.github.io/flyingCat/index.html"> Flying Cat </a>
+  <body onload="typeWriter()">
+
+  <div id="overlay">
+
+  <div id = 'overlayTitle'>
+    <p >assignment1</p>
   </div>
 
+  <div id = 'overlaytext'>
+    <p> This is the first website I have ever designed. We were given 30 minutes in class to produce a short film and I made a website for it. sdfls;ajdfl;as df sadfowpeh fosa fdaienf opsaefiasenf saifioanef oisandfi naeofb sa ifsa</p>
+  </div>
+
+  <button id ="continue">
+    <a id = 'link' href="https://ross67.github.io/assignment1/">continue to the project --></a>
+  </button>
+
+  </div>
+  <div id='main'>
+<p class='title' id='title'></p>
+<p class='title' id='subtitle'>Commlab Portforlio</p>
+  <div class="container">
+    <button class="item" id='part1'> <img src = 'movie.png' alt = 'movie'></button>
+    <button class="item" id='part2'> <img src = 'dog.png' alt = 'dog'></button>
+    <button class="item" id='part3'> <img src = 'horror.png' alt = 'horror'> </button>
+    <button class="item" id='part4'> <img src = 'sword.png' alt = 'sword'> </button>
+    <button class="item" id='part5'> <img src = 'game.png' alt = 'game'>  </button>
+    <button class="item" id='part6'> <img src = 'cat.png' alt = 'cat'> </button>
+  </div>
+
+</div>
+
+<a href= "index.html"><img id='backbutton'src='leftarrow.png'></a>
+  <script src="script.js"></script>
 
   </body>
   <script src="script.js"></script>
